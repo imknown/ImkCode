@@ -1,2 +1,2 @@
 # ImkCode
-Imk code lib.
+Imk code lib. Plz use this as an `Android Studio` `module`.
