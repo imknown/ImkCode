@@ -6,7 +6,7 @@ import android.os.Process
 import android.text.TextUtils
 
 object ProcessUtils {
-    @JvmField val TAG: String = ProcessUtils::class.java.simpleName
+    @JvmField val TAG: String = ProcessUtils.javaClass.simpleName
 
     @JvmStatic fun isDefaultProcess(context: Context): Boolean {
         var isMain = false
