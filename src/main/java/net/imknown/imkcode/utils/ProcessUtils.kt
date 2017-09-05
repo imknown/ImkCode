@@ -9,18 +9,18 @@ object ProcessUtils {
     @JvmField val TAG: String = ProcessUtils.javaClass.simpleName
 
     @JvmStatic fun isDefaultProcess(context: Context): Boolean {
-        var isMain = false
+        var isDefaultProcess = false
 
         val processName = getCurrentProcessName(context)
         val packageName = context.packageName
 
         if (!TextUtils.isEmpty(processName)) {
             if (processName == packageName) {
-                isMain = true
+                isDefaultProcess = true
             }
         }
 
-        return isMain
+        return isDefaultProcess
     }
 
     @JvmStatic fun getCurrentProcessName(context: Context): String {
