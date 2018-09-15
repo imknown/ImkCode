@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 
 def myVersionCode = 1
 def myVersionName = "1.0.0"
-def myVersionNameSuffix = ".0"
+// def myVersionNameSuffix = ".0"
 
 android {
     compileSdkVersion androidBuild.compileSdkVersion
@@ -23,6 +23,6 @@ android {
 }
 
 dependencies {
-    apply from: "$rootDir/ZOthers/gradle/testDependencies.gradle"
-    apply from: "$rootDir/ZOthers/gradle/kotlinDependencies.gradle"
+    apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/testDependencies.gradle"
+    apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/kotlinDependencies.gradle"
 }
