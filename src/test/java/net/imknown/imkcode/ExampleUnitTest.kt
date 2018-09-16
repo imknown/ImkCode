@@ -1,4 +1,4 @@
-package net.imknown.imkgithub
+package net.imknown.imkcode
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
