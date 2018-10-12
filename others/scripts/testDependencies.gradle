@@ -2,9 +2,9 @@ dependencies {
     apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/buildScriptConfig.gradle"
 
     // region [Test]
-    testImplementation 'androidx.test:core:1.0.0-beta02'
-    testImplementation 'androidx.test.ext:junit:1.0.0-beta02'
-    androidTestImplementation 'androidx.test:runner:1.1.0-beta02'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-beta02'
-    // endregion
+    testImplementation "androidx.test:core:$officialLibs.testCore"
+    testImplementation "androidx.test.ext:junit:$officialLibs.junit"
+    androidTestImplementation "androidx.test:runner:$officialLibs.runner"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$officialLibs.espressoCore"
+    // endregion [Test]
 }

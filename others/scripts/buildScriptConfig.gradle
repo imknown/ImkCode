@@ -20,7 +20,12 @@ ext {
 
             constraintLayout: '2.0.0-alpha2',
 
-            multidex        : '2.0.0'
+            multidex        : '2.0.0',
+
+            testCore        : '1.0.0-beta02',
+            junit           : '1.0.0-beta02',
+            runner          : '1.1.0-beta02',
+            espressoCore    : '3.1.0-beta02'
     ]
 
     kotlin = [
