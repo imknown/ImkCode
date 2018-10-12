@@ -1,7 +1,6 @@
 dependencies {
     apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/buildScriptConfig.gradle"
 
-    // region [Kotlin]
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin.kotlin"
 
     // region [Kotlin Anko]
@@ -12,16 +11,49 @@ dependencies {
     // api "org.jetbrains.anko:anko-commons:$kotlin.anko"
 
     // Anko Layouts
-    // api "org.jetbrains.anko:anko-sdk25:$kotlin.anko"
-    // sdk15, sdk19, sdk21, sdk23 are also available
+    // api "org.jetbrains.anko:anko-sdk25:$kotlin.anko" // sdk15, sdk19, sdk21, sdk23 are also available
     // api "org.jetbrains.anko:anko-appcompat-v7:$kotlin.anko"
 
     // Coroutine listeners for Anko Layouts
     // api "org.jetbrains.anko:anko-sdk25-coroutines:$kotlin.anko"
-    // api "org.jetbrains.anko:anko-appcompat-v7-couroutines:$kotlin.anko"
+    // api "org.jetbrains.anko:anko-appcompat-v7-coroutines:$kotlin.anko"
 
     // Anko SQLite
     // api "org.jetbrains.anko:anko-sqlite:$kotlin.anko"
+
+    // region [Anko Android support libraries]
+    // Appcompat-v7 (only Anko Commons)
+    // api "org.jetbrains.anko:anko-appcompat-v7-commons:$kotlin.anko"
+
+    // Appcompat-v7 (Anko Layouts)
+    // api "org.jetbrains.anko:anko-appcompat-v7:$kotlin.anko"
+    // api "org.jetbrains.anko:anko-coroutines:$kotlin.anko"
+
+    // CardView-v7
+    // api "org.jetbrains.anko:anko-cardview-v7:$kotlin.anko"
+
+    // Design
+    // api "org.jetbrains.anko:anko-design:$kotlin.anko"
+    // api "org.jetbrains.anko:anko-design-coroutines:$kotlin.anko"
+
+    // GridLayout-v7
+    // api "org.jetbrains.anko:anko-gridlayout-v7:$kotlin.anko"
+
+    // Percent
+    // api "org.jetbrains.anko:anko-percent:$kotlin.anko"
+
+    // RecyclerView-v7
+    // api "org.jetbrains.anko:anko-recyclerview-v7:$kotlin.anko"
+    // api "org.jetbrains.anko:anko-recyclerview-v7-coroutines:$kotlin.anko"
+
+    // Support-v4 (only Anko Commons)
+    // api "org.jetbrains.anko:anko-support-v4-commons:$kotlin.anko"
+
+    // Support-v4 (Anko Layouts)
+    // api "org.jetbrains.anko:anko-support-v4:$kotlin.anko"
+
+    // ConstraintLayout
+    // api "org.jetbrains.anko:anko-constraint-layout:$kotlin.anko"
+    // endregion [Android support libraries]
     // endregion [Kotlin Anko]
-    // endregion [Kotlin]
 }
