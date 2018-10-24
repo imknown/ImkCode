@@ -2,34 +2,29 @@ package net.imknown.imkcode.utils
 
 import android.app.ActivityManager
 import android.content.Context
+import android.content.pm.PackageManager.GET_SERVICES
 import android.os.Process
-import android.text.TextUtils
 
 object ProcessUtils {
-    @JvmField val TAG: String = ProcessUtils.javaClass.simpleName
+    // @JvmField
+    // val TAG: String = /* ProcessUtils. */ javaClass.simpleName
 
-    @JvmStatic fun isDefaultProcess(context: Context): Boolean {
-        var isDefaultProcess = false
-
+    @JvmStatic
+    fun isDefaultProcess(context: Context): Boolean {
+        // val packageName = context.packageName
         val processName = getCurrentProcessName(context)
-        val packageName = context.packageName
+        val defaultProcessName =
+            context.packageManager.getPackageInfo(context.packageName, GET_SERVICES).applicationInfo.processName
 
-        if (!TextUtils.isEmpty(processName)) {
-            if (processName == packageName) {
-                isDefaultProcess = true
-            }
-        }
-
-        return isDefaultProcess
+        return processName == defaultProcessName
     }
 
-    @JvmStatic fun getCurrentProcessName(context: Context): String {
-        val currentPid = Process.myPid()
-
+    @JvmStatic
+    fun getCurrentProcessName(context: Context): String {
         val activityManager = context.getSystemService(Context.ACTIVITY_SERVICE) as ActivityManager
 
         activityManager.runningAppProcesses.forEach {
-            if (currentPid == it.pid) {
+            if (Process.myPid() == it.pid) {
                 return it.processName
             }
         }
