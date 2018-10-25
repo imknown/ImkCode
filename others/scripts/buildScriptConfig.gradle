@@ -22,10 +22,10 @@ ext {
 
             multidex        : '2.0.0',
 
-            testCore        : '1.0.0-beta02',
-            junit           : '1.0.0-beta02',
-            runner          : '1.1.0-beta02',
-            espressoCore    : '3.1.0-beta02'
+            testCore        : '1.0.0',
+            junit           : '1.0.0',
+            runner          : '1.1.0',
+            espressoCore    : '3.1.0'
     ]
 
     kotlin = [
