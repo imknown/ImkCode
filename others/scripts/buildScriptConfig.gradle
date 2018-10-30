@@ -80,7 +80,7 @@ ext {
             rxBinding                    : '2.1.1',
 
             // https://github.com/JakeWharton/butterknife
-            butterKnife                  : '8.8.1',
+            // butterKnife                  : '9.0.0-rc1',
 
             // https://github.com/google/dagger
             dagger                       : '2.16',
