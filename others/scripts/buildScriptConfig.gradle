@@ -12,24 +12,23 @@ ext {
             targetSdkVersion : 28
     ]
 
+    // https://maven.google.com
     officialLibs = [
             // https://developer.android.com/topic/libraries/support-library/androidx-rn
-            // https://maven.google.com
-            annotation      : '1.0.0',
-            multidex        : '2.0.0',
+            annotation      : '1.0.1',
+            multidex        : '2.0.1',
             emoji           : '1.0.0',
-
-            appCompat       : '1.0.2',
-            material        : '1.0.0',
+            appCompat       : '1.1.0-alpha01',
+            material        : '1.1.0-alpha02',
             cardView        : '1.0.0',
             recyclerView    : '1.0.0',
-            constraintLayout: '2.0.0-alpha2',
+            constraintLayout: '2.0.0-alpha3',
 
             // https://developer.android.com/training/testing/release-notes
-            testCore        : '1.0.0',
-            junit           : '1.0.0',
-            runner          : '1.1.0',
-            espressoCore    : '3.1.0'
+            testCore        : '1.1.0',
+            junit           : '1.1.0',
+            runner          : '1.1.1',
+            espressoCore    : '3.1.1'
     ]
 
     kotlin = [
@@ -40,11 +39,11 @@ ext {
 
             // https://github.com/Kotlin/anko
             // https://bintray.com/jetbrains/anko/anko
-            anko      : '0.10.5',
+            anko      : '0.10.8',
 
             // https://github.com/Kotlin/kotlinx.coroutines/releases
             // https://bintray.com/kotlin/kotlinx/kotlinx.coroutines
-            coroutines: '0.24.0'
+            coroutines: '1.1.0'
     ]
 
     thirdParties = [
