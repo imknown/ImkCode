@@ -52,7 +52,7 @@ ext {
             andResGuard                  : '1.2.15',
 
             // https://github.com/square/leakcanary
-            leakCanary                   : '1.5.4',
+            leakCanary                   : '1.6.2',
 
             // https://github.com/markzhai/AndroidPerformanceMonitor
             blockCanary                  : '1.5.0',
@@ -62,9 +62,9 @@ ext {
             // blockCanaryEx                : '0.9.9.4',
 
             // https://github.com/square/okhttp/
-            okhttp                       : '3.11.0',
+            okhttp                       : '3.12.1',
             // https://github.com/square/retrofit
-            retrofit                     : '2.4.0',
+            retrofit                     : '2.5.0',
             // https://github.com/facebook/stetho
             stetho                       : '1.5.0',
             // https://github.com/jgilfelt/chuck
@@ -74,22 +74,22 @@ ext {
             gson                         : '2.8.5',
 
             // https://github.com/ReactiveX/RxJava
-            rxJava                       : '2.2.2',
+            rxJava                       : '2.2.5',
             // https://github.com/ReactiveX/RxAndroid
             rxAndroid                    : '2.1.0',
             // https://github.com/ReactiveX/RxKotlin
             rxKotlin                     : '2.3.0',
             // https://github.com/JakeWharton/RxBinding
-            rxBinding                    : '2.1.1',
+            rxBinding                    : '3.0.0-alpha2',
 
             // https://github.com/JakeWharton/butterknife
-            // butterKnife                  : '9.0.0-rc1',
+            // butterKnife                  : '10.0.0',
 
             // https://github.com/google/dagger
-            dagger                       : '2.16',
+            dagger                       : '2.20',
 
             // https://github.com/CymChad/BaseRecyclerViewAdapterHelper/releases
-            baseRecyclerViewAdapterHelper: '2.9.42',
+            baseRecyclerViewAdapterHelper: '2.9.44',
 
             // https://github.com/bumptech/glide
             glide                        : '4.8.0',
