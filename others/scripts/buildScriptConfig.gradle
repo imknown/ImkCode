@@ -19,10 +19,10 @@ ext {
             annotation      : '1.0.1',
             multidex        : '2.0.1',
             emoji           : '1.0.0',
-            appCompat       : '1.1.0-alpha01',
+            appCompat       : '1.1.0-alpha02',
             material        : '1.1.0-alpha02',
             cardView        : '1.0.0',
-            recyclerView    : '1.0.0',
+            recyclerView    : '1.1.0-alpha01',
             constraintLayout: '2.0.0-alpha3',
 
             // https://developer.android.com/training/testing/release-notes
@@ -36,7 +36,7 @@ ext {
             // https://github.com/JetBrains/kotlin/releases
             // http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jetbrains.kotlin%22
             // https://bintray.com/kotlin/kotlin-dev/kotlin
-            kotlin    : '1.3.11',
+            kotlin    : '1.3.21',
 
             // https://github.com/Kotlin/anko
             // https://bintray.com/jetbrains/anko/anko
@@ -62,7 +62,7 @@ ext {
             // blockCanaryEx                : '0.9.9.4',
 
             // https://github.com/square/okhttp/
-            okhttp                       : '3.12.1',
+            okhttp                       : '3.13.1',
             // https://github.com/square/retrofit
             retrofit                     : '2.5.0',
             // https://github.com/facebook/stetho
@@ -86,7 +86,7 @@ ext {
             // butterKnife                  : '10.0.0',
 
             // https://github.com/google/dagger
-            dagger                       : '2.20',
+            dagger                       : '2.21',
 
             // https://github.com/CymChad/BaseRecyclerViewAdapterHelper/releases
             baseRecyclerViewAdapterHelper: '2.9.44',
