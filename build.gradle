@@ -20,9 +20,18 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
 }
 
 dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
     apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/testDependencies.gradle"
     apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/kotlinDependencies.gradle"
 }
