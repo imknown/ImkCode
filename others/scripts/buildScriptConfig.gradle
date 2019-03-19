@@ -16,13 +16,13 @@ ext {
     officialLibs = [
             // https://developer.android.com/topic/libraries/support-library/androidx-rn
             // https://androidstudio.googleblog.com/
-            annotation      : '1.1.0-alpha01',
+            annotation      : '1.1.0-alpha02',
             multidex        : '2.0.1',
             emoji           : '1.0.0',
-            appCompat       : '1.1.0-alpha02',
-            material        : '1.1.0-alpha02',
+            appCompat       : '1.1.0-alpha03',
+            material        : '1.1.0-alpha04',
             cardView        : '1.0.0',
-            recyclerView    : '1.1.0-alpha01',
+            recyclerView    : '1.1.0-alpha03',
             constraintLayout: '2.0.0-alpha3',
 
             // https://developer.android.com/training/testing/release-notes
@@ -62,11 +62,11 @@ ext {
             // blockCanaryEx                : '0.9.9.4',
 
             // https://github.com/square/okhttp/
-            okhttp                       : '3.13.1',
+            okhttp                       : '3.14.0',
             // https://github.com/square/retrofit
             retrofit                     : '2.5.0',
             // https://github.com/facebook/stetho
-            stetho                       : '1.5.0',
+            stetho                       : '1.5.1',
             // https://github.com/jgilfelt/chuck
             chuck                        : '1.1.0',
 
