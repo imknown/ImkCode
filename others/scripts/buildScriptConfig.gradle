@@ -1,5 +1,5 @@
 ext {
-    androidStudioGradlePlugin = '3.5.0-alpha11'
+    androidStudioGradlePlugin = '3.5.0-alpha13'
 
     androidBuild = [
             // https://developer.android.com/studio/releases/build-tools.html#notes
@@ -52,7 +52,7 @@ ext {
 
     thirdParties = [
             // https://github.com/shwenzhang/AndResGuard
-            andResGuard                  : '1.2.16-DEBUG-2',
+            andResGuard                  : '1.2.16',
 
             // https://github.com/square/leakcanary
             leakCanary                   : '1.6.3',
