@@ -1,9 +1,9 @@
 ext {
-    androidStudioGradlePlugin = '3.5.0-alpha13'
+    androidStudioGradlePlugin = '3.5.0-beta01'
 
     androidBuild = [
             // https://developer.android.com/studio/releases/build-tools.html#notes
-            buildToolsVersion: "29.0.0 rc2",
+            buildToolsVersion: "29.0.0 rc3",
 
             minSdkVersion    : 21,
 
