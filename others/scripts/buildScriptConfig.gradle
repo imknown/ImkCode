@@ -1,5 +1,5 @@
 ext {
-    androidStudioGradlePlugin = '3.6.0-alpha02'
+    androidStudioGradlePlugin = '3.6.0-alpha03'
 
     androidBuild = [
             // https://developer.android.com/studio/releases/build-tools.html#notes
@@ -14,24 +14,23 @@ ext {
 
     // https://maven.google.com
     officialLibs = [
-            // https://developer.android.com/jetpack/androidx/releases/archive/androidx
+            // https://developer.android.com/jetpack/androidx/releases
             // https://maven.google.com
-            // https://dl.google.com/dl/android/maven2/index.html
             // https://androidstudio.googleblog.com/
-            annotation      : '1.1.0-rc01',
+            annotation      : '1.1.0',
             multidex        : '2.0.1',
             emoji           : '1.0.0',
-            appCompat       : '1.1.0-alpha05',
-            material        : '1.1.0-alpha06',
+            appCompat       : '1.1.0-beta01',
+            material        : '1.1.0-alpha07',
             cardView        : '1.0.0',
-            recyclerView    : '1.1.0-alpha05',
+            recyclerView    : '1.1.0-alpha06',
             constraintLayout: '2.0.0-beta1',
 
-            // https://developer.android.com/training/testing/release-notes
-            testCore        : '1.2.0-beta01',
-            junit           : '1.1.1-beta01',
-            runner          : '1.2.0-beta01',
-            espressoCore    : '3.2.0-beta01'
+            // https://developer.android.com/jetpack/androidx/releases/test
+            testCore        : '1.2.0',
+            junit           : '1.1.1',
+            runner          : '1.2.0',
+            espressoCore    : '3.2.0'
     ]
 
     kotlin = [
@@ -64,9 +63,9 @@ ext {
             // blockCanaryEx                : '0.9.9.4',
 
             // https://github.com/square/okhttp/
-            okhttp                       : '3.14.2',
+            okhttp                       : '3.14.2', // '4.0.0-RC1'
             // https://github.com/square/retrofit
-            retrofit                     : '2.5.0',
+            retrofit                     : '2.6.0',
             // https://github.com/facebook/stetho
             stetho                       : '1.5.1',
             // https://github.com/jgilfelt/chuck
@@ -76,7 +75,7 @@ ext {
             gson                         : '2.8.5',
 
             // https://github.com/ReactiveX/RxJava
-            rxJava                       : '2.2.8',
+            rxJava                       : '2.2.9',
             // https://github.com/ReactiveX/RxAndroid
             rxAndroid                    : '2.1.1',
             // https://github.com/ReactiveX/RxKotlin
@@ -88,7 +87,7 @@ ext {
             // butterKnife                  : '10.1.0',
 
             // https://github.com/google/dagger
-            dagger                       : '2.22.1',
+            dagger                       : '2.23.1',
 
             // https://github.com/CymChad/BaseRecyclerViewAdapterHelper
             baseRecyclerViewAdapterHelper: '2.9.46',
