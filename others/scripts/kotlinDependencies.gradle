@@ -1,7 +1,7 @@
 dependencies {
     apply from: "$rootDir/ZMainLib/ImkCode/others/scripts/buildScriptConfig.gradle"
 
-    api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin.kotlin"
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin.kotlin"
 
     // region [Kotlin Anko]
     // Anko All
