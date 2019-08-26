@@ -1,14 +1,11 @@
 ext {
-    androidStudioGradlePlugin = '3.6.0-alpha05'
+    androidStudioGradlePlugin = '3.6.0-alpha07'
 
     androidBuild = [
             // https://developer.android.com/studio/releases/build-tools.html#notes
             buildToolsVersion: "29.0.2",
-
             minSdkVersion    : 21,
-
             compileSdkVersion: 29,
-
             targetSdkVersion : 29
     ]
 
@@ -23,7 +20,7 @@ ext {
             appCompat       : '1.1.0-rc01',
             material        : '1.1.0-alpha09',
             cardView        : '1.0.0',
-            recyclerView    : '1.1.0-beta02',
+            recyclerView    : '1.1.0-beta03',
             constraintLayout: '2.0.0-alpha3', // '2.0.0-beta2'
 
             // https://developer.android.com/jetpack/androidx/releases/test
@@ -53,7 +50,7 @@ ext {
             andResGuard                  : '1.2.17',
 
             // https://github.com/square/leakcanary
-            leakCanary                   : '2.0-beta-2',
+            leakCanary                   : '2.0-beta-3',
 
             // https://github.com/markzhai/AndroidPerformanceMonitor
             // blockCanary                  : '1.5.0',
@@ -63,7 +60,7 @@ ext {
             // blockCanaryEx                : '0.9.9.4',
 
             // https://github.com/square/okhttp/
-            okhttp                       : '4.0.1',
+            okhttp                       : '4.1.0',
             // https://github.com/square/retrofit
             retrofit                     : '2.6.1',
             // https://github.com/facebook/stetho
@@ -100,7 +97,7 @@ ext {
             // https://bintray.com/bintray/jcenter/com.umeng.sdk%3Acommon
             umengCommon                  : '1.5.3',
             umengAnalytics               : '7.5.3',
-            umengUtdid                   : '1.1.5.3',
+            umengUtdid                   : '1.1.5.3'
     ]
 
     keysConfig = [
@@ -108,7 +105,7 @@ ext {
                     storeFile    : "$rootDir/ZMainLib/ImkCode/others/keys/debug.keystore",
                     storePassword: 'android',
                     keyAlias     : 'androiddebugkey',
-                    keyPassword  : 'android',
+                    keyPassword  : 'android'
             ],
 
             release: [
