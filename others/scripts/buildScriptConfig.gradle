@@ -1,5 +1,5 @@
 ext {
-    androidStudioGradlePlugin = '3.6.0-alpha07'
+    androidStudioGradlePlugin = '3.6.0-alpha09'
 
     androidBuild = [
             // https://developer.android.com/studio/releases/build-tools.html#notes
@@ -34,7 +34,7 @@ ext {
             // https://github.com/JetBrains/kotlin/releases
             // http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jetbrains.kotlin%22
             // https://bintray.com/kotlin/kotlin-dev/kotlin
-            kotlin    : '1.3.41',
+            kotlin    : '1.3.50',
 
             // https://github.com/Kotlin/anko/releases
             // https://bintray.com/jetbrains/anko/anko
@@ -42,7 +42,7 @@ ext {
 
             // https://github.com/Kotlin/kotlinx.coroutines/releases
             // https://bintray.com/kotlin/kotlinx/kotlinx.coroutines
-            coroutines: '1.3.0-RC'
+            coroutines: '1.3.0'
     ]
 
     thirdParties = [
