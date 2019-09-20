@@ -38,7 +38,7 @@ ext {
 
             // https://github.com/Kotlin/anko/releases
             // https://bintray.com/jetbrains/anko/anko
-            anko      : '0.10.8',
+            // anko      : '0.10.8',
 
             // https://github.com/Kotlin/kotlinx.coroutines/releases
             // https://bintray.com/kotlin/kotlinx/kotlinx.coroutines

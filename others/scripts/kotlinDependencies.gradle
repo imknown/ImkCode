@@ -5,7 +5,7 @@ dependencies {
 
     // region [Kotlin Anko]
     // Anko All
-    api "org.jetbrains.anko:anko:$kotlin.anko"
+    // api "org.jetbrains.anko:anko:$kotlin.anko"
 
     // Anko Commons
     // api "org.jetbrains.anko:anko-commons:$kotlin.anko"
