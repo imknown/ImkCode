@@ -9,7 +9,6 @@ ext {
             targetSdkVersion : 29
     ]
 
-    // https://maven.google.com
     officialLibs = [
             // https://developer.android.com/jetpack/androidx/versions
             // https://maven.google.com
